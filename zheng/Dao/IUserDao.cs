@@ -12,7 +12,7 @@ namespace zheng.Dao
     interface IUserDao
     {
         //通过用户名获取用户实体
-        int getUserName(String name);
+        int putUserAge(int age);
       
     }
 }
